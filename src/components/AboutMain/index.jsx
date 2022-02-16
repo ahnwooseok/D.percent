@@ -10,10 +10,17 @@ import {
   MainBottom,
   Line,
   Challenge,
-  ChallengeTitle,
+  Title,
   ChallengeCircle,
   ChallengeBox,
-  ChallengeCircleTitle, ChallengeCircleSubTitle, ChallengeCircleContent
+  ChallengeCircleTitle,
+  ChallengeCircleSubTitle,
+  ChallengeCircleContent,
+  Activity,
+  ActivityTop,
+  Box73,
+  ActivityBottom,
+  ActivityContent
 } from "./styles";
 
 
@@ -27,7 +34,7 @@ function AboutMain() {
         </MainLeft>
         <MainRight>
           <MainContents>
-            D.PERCENT는 IT 생태계의 주인공인<br/>
+            <span style={{color: "#0DFF8B"}}>D.PERCENT</span>는 IT 생태계의 주인공인<br/>
             디자이너와 개발자를 위한 모임입니다.<br/><br/>
             D.PERCENT에서<br/>
             재능 있는 디자이너와 개발자가 함께 모여<br/>
@@ -40,7 +47,7 @@ function AboutMain() {
 
       <MainBottom>
         <MainContents>
-          D.PERCENT의 D는 IT직종의 주인공인 디자이너(Designer)와 개발자(Developer)의 공통인 이니셜에서 착안했습니다.<br/>
+          <span style={{color: "#0DFF8B"}}>D.PERCENT</span>의 D는 IT직종의 주인공인 디자이너(Designer)와 개발자(Developer)의 공통인 이니셜에서 착안했습니다.<br/>
           Percent(%)는 보통 0과 1사이를 의미합니다. 이는 이진법의 언어가 0과 1로 이루어져있는 것에서 컴퓨터 언어와 닮아있고,<br/>
           두개의 0이 모여 하나의 기호를 이루는 것 처럼 디자이너와 개발자가 모여 하나의 단체를 이룬다는 것을 상징합니다.<br/>
         </MainContents>
@@ -49,7 +56,7 @@ function AboutMain() {
       <Challenge>
         {/*<Line></Line>*/}
         {/*<ChallengeTitle style={{color: "#0Dff8B"}}>새롭게 도전하는 우리</ChallengeTitle>*/}
-        <ChallengeTitle>새롭게 도전하는 우리</ChallengeTitle>
+        <Title>새롭게 도전하는 우리</Title>
 
 
         <ChallengeBox>
@@ -66,7 +73,8 @@ function AboutMain() {
           </ChallengeCircle>
 
 
-          <ChallengeCircle >
+
+          <ChallengeCircle>
             <ChallengeCircleTitle>ACTIVITY</ChallengeCircleTitle>
             <ChallengeCircleSubTitle>팀별 프로젝트</ChallengeCircleSubTitle>
             <ChallengeCircleContent>
@@ -94,6 +102,24 @@ function AboutMain() {
 
         </ChallengeBox>
       </Challenge>
+
+      <Activity>
+        <Title>함께하는 다양한 활동</Title>
+
+        <ActivityTop>
+          <Image src='/assets/images/activity1.png' width={410} height={180} />
+          <ActivityContent>다양한 전공의 경험을 공유합니다</ActivityContent>
+          <Box73/>
+          <Image src='/assets/images/activity2.png' width={410} height={180} />
+        </ActivityTop>
+
+        <ActivityBottom>
+          <Image src='/assets/images/activity3.png' width={410} height={180} />
+          <Box73/>
+          <Image src='/assets/images/activity4.png' width={410} height={180} />
+        </ActivityBottom>
+
+      </Activity>
 
     </Wrapper>
   );

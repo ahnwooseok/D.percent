@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
-  padding-top: 800px;
+  padding-top: 1800px;
 `;
 
 
@@ -62,7 +62,7 @@ export const Line = styled.div`
   border: 2px solid;
   border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
 `;
-export const ChallengeTitle = styled.h1`
+export const Title = styled.h1`
   color: #ffffff;
   font-family: Noto Sans KR, sans-serif;
   font-size: 36px;
@@ -131,4 +131,39 @@ export const ChallengeCircleContent = styled.p`
   line-height: 150%;
   font-weight: 500;
   font-size: 11px;
+`;
+
+export const Activity = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 164px;
+`;
+
+export const ActivityTop = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 89px;
+`;
+export const Box73 = styled.div`
+  width: 73px;
+`;
+
+export const ActivityBottom = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+`;
+
+export const ActivityContent = styled.div`
+  position: absolute;
+  color: #ffffff;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  line-height: 150%;
+  font-weight: 350;
+  font-size: 24px;
 `;
