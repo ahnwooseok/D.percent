@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import AboutMain from "../components/AboutMain";
 
 function About() {
   return (
@@ -6,8 +7,7 @@ function About() {
       <Head>
         <title>About | D.Percent</title>
       </Head>
-      About page
-      and git upload
+      <AboutMain/>
     </>
   );
 }

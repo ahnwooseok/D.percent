@@ -13,6 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
+  padding-top: 800px;
 `;
 
 
@@ -43,4 +44,91 @@ export const MainContents = styled.p`
   font-size: 18px;
   line-height: 155%;
   font-style: normal;
+`;
+
+export const Challenge = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 68px;
+`;
+
+export const Line = styled.div`
+  width: 257px;
+  height: 0px;
+  
+  transform: rotate(90deg);
+  border: 2px solid;
+  border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
+`;
+export const ChallengeTitle = styled.h1`
+  color: #ffffff;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 36px;
+  line-height: 150%;
+  font-weight: bold;
+  font-style: normal;
+  
+  padding-top: 325px;
+`;
+
+export const ChallengeBox = styled.div`
+  display: flex;
+  padding-top: 128px;
+`;
+
+
+export const ChallengeCircle = styled.div`
+  width: 316px;
+  height: 316px;
+  mix-blend-mode: normal;
+  /* sub */
+  //border: 1px solid #FFFA8B;
+  border: 1px solid;
+  color: #ffffff;
+  border-radius: 200px;
+  box-sizing: border-box;
+`;
+
+export const ChallengeCircleTitle = styled.h1`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top : 38px;
+  
+  color: #ffffff;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  line-height: 150%;
+  font-weight: bold;
+  font-size: 21px;
+`;
+
+export const ChallengeCircleSubTitle = styled.h2`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top : 38px;
+
+  color: #ffffff;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 21px;
+`;
+
+export const ChallengeCircleContent = styled.p`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top : 65px;
+  
+  color: #ffffff;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 11px;
 `;
