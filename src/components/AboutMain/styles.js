@@ -51,16 +51,17 @@ export const Challenge = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 68px;
+  padding-top: 168px;
 `;
 
 export const Line = styled.div`
   width: 257px;
   height: 0px;
   
+  padding-top: 2px;
   transform: rotate(90deg);
   border: 2px solid;
-  border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
 `;
 export const Title = styled.h1`
   color: #ffffff;
@@ -70,7 +71,7 @@ export const Title = styled.h1`
   font-weight: bold;
   font-style: normal;
   
-  padding-top: 325px;
+  padding-top: 125px;
 `;
 
 export const ChallengeBox = styled.div`
@@ -138,7 +139,6 @@ export const Activity = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 164px;
 `;
 
 export const ActivityTop = styled.div`
@@ -159,11 +159,11 @@ export const ActivityBottom = styled.div`
 `;
 
 export const ActivityContent = styled.div`
-  position: absolute;
   color: #ffffff;
   font-family: Noto Sans KR, sans-serif;
   font-style: normal;
   line-height: 150%;
   font-weight: 350;
   font-size: 24px;
+  position: relative;
 `;

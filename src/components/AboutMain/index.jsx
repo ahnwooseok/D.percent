@@ -54,8 +54,7 @@ function AboutMain() {
       </MainBottom>
 
       <Challenge>
-        {/*<Line></Line>*/}
-        {/*<ChallengeTitle style={{color: "#0Dff8B"}}>새롭게 도전하는 우리</ChallengeTitle>*/}
+        <Line></Line>
         <Title>새롭게 도전하는 우리</Title>
 
 
