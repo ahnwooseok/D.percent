@@ -134,12 +134,19 @@ function AboutMain() {
       <Process>
         <Title>진행되는 과정</Title>
         <Box103/>
+
+        <ProcessBox>
+          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"80px"} }><h3>Teambuilding</h3></BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"110px"} }><h3>Search</h3></BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"100px"} }><h3>Project progressing</h3></BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px"} }><h3>The final stage</h3></BalloonContent>
+        </ProcessBox>
         <RowLine></RowLine>
 
         <ProcessBox>
 
           <BalloonBox>
-            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Teambuilding</h3></BalloonContent>
+
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>팀 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
@@ -149,7 +156,6 @@ function AboutMain() {
           </BalloonBox>
 
           <BalloonBox>
-            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Search</h3></BalloonContent>
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>과제 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
@@ -159,7 +165,6 @@ function AboutMain() {
           </BalloonBox>
 
           <BalloonBox>
-            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Project progressing</h3></BalloonContent>
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>협업활동 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
@@ -169,7 +174,6 @@ function AboutMain() {
           </BalloonBox>
 
           <BalloonBox>
-            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>The final stage</h3></BalloonContent>
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>결과물 공유</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>

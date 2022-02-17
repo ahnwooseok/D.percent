@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import RecruitMain from "../components/RecruitMain";
 
 function Recruitment() {
   return (
@@ -6,7 +7,7 @@ function Recruitment() {
       <Head>
         <title>Recruitment | D.Percent</title>
       </Head>
-      Recruitment
+      <RecruitMain />
     </>
   );
 }
