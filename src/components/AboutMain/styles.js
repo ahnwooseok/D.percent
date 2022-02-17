@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
-  padding-top: 2400px;
+  padding-top: 2800px;
 `;
 
 
@@ -270,16 +270,42 @@ export const Found = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 146px;
 `;
 export const FoundRowLine = styled.div`
 
-  width: 100%;
-  height: 100px;
+  width: 1280px;
+  height: 0px;
 
-  background: linear-gradient(270deg, #0DFF8B 0%, #FFFA8B 100%, #FFFA8B 100%);
-  //background: #404040;
+  padding-top: 2px;
   
-  border: none;
-  border-top: 2px dotted #26FF97;
+  border: 1px;
+  background: #404040;
+`;
+
+export const FoundBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 38px;
+  
+`;
+export const FoundContent = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+export const FoundColumnLine = styled.div`
+  width: 276px;
+  height: 0px;
+  
+  padding-top: 1px;
+  margin-top: 64px;
+  margin-left: 223px;
+  transform: rotate(90deg);
+  border: 0.5px solid;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
+
 
 `;

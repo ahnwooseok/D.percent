@@ -29,7 +29,7 @@ import {
   BalloonContent,
   ProcessBox,
   BalloonBox,
-  BalloonDetailBox, BalloonDetailContent, BalloonCircle, FoundRowLine, Found
+  BalloonDetailBox, BalloonDetailContent, BalloonCircle, FoundRowLine, Found, FoundBox, FoundContent, FoundColumnLine
 } from "./styles";
 
 
@@ -180,8 +180,32 @@ function AboutMain() {
       </Process>
 
       <Found>
-        <FoundRowLine></FoundRowLine>
-
+        <FoundRowLine/>
+        <Title style={{paddingTop:"55px", fontSize:"18px", paddingRight:"800px"}}>Founding member.</Title>
+        <FoundBox>
+          <FoundContent>
+            <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>박찬빈</Title>
+            <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>백윤아</Title>
+            <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>김예은</Title>
+            <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>안우석</Title>
+            <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>이지환</Title>
+          </FoundContent>
+          <FoundContent style={{paddingTop:"16px",paddingLeft:"30px"}}>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"350"}}>Designer & Crew president</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"350"}}>Designer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"350"}}>Designer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"350"}}>Developer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"350"}}>Developer</Title>
+          </FoundContent>
+          <FoundColumnLine/>
+          <FoundContent style={{paddingTop:"16px",paddingLeft:"30px"}}>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"300"}}>건국대학교 커뮤니케이션디자인과</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"300"}}>건국대학교 산업디자인과</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"300"}}>건국대학교 커뮤니케이션디자인과</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"300"}}>건국대학교 컴퓨터공학과</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"21px",fontWeight:"300"}}>건국대학교 컴퓨터공학과</Title>
+          </FoundContent>
+        </FoundBox>
       </Found>
 
     </Wrapper>
