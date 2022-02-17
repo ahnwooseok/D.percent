@@ -20,7 +20,16 @@ import {
   ActivityTop,
   Box73,
   ActivityBottom,
-  ActivityContent
+  ActivityContent,
+  Process,
+  RowLine,
+  Box103,
+  Balloon,
+  BalloonAfter,
+  BalloonContent,
+  ProcessBox,
+  BalloonBox,
+  BalloonDetailBox, BalloonDetailContent, BalloonCircle, FoundRowLine, Found
 } from "./styles";
 
 
@@ -106,8 +115,9 @@ function AboutMain() {
         <Title>함께하는 다양한 활동</Title>
 
         <ActivityTop>
-          <Image src='/assets/images/activity1.png' width={410} height={180} />
-          <ActivityContent>다양한 전공의 경험을 공유합니다</ActivityContent>
+          <Image src='/assets/images/activity1.png' width={410} height={180}/>
+          {/*<Image src='/assets/images/activity1.png' width={410} height={180}><h1 style={{color:"#ffffff"}}>dslfs</h1></Image>*/}
+          {/*<ActivityContent>다양한 전공의 경험을 공유합니다</ActivityContent>*/}
           <Box73/>
           <Image src='/assets/images/activity2.png' width={410} height={180} />
         </ActivityTop>
@@ -119,6 +129,60 @@ function AboutMain() {
         </ActivityBottom>
 
       </Activity>
+
+
+      <Process>
+        <Title>진행되는 과정</Title>
+        <Box103/>
+        <RowLine></RowLine>
+
+        <ProcessBox>
+
+          <BalloonBox>
+            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Teambuilding</h3></BalloonContent>
+            <BalloonCircle/>
+            <Balloon><BalloonContent><h3>팀 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <BalloonDetailBox>
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>팀 선정은 사전 설문 답변을 바탕으로 디자이너 + 개발자로 구성됩니다. 같은 직군끼리의 팀원은 꾸려오셔도 되지만 타 직군과 매칭은 랜덤으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
+            </BalloonDetailBox>
+          </BalloonBox>
+
+          <BalloonBox>
+            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Search</h3></BalloonContent>
+            <BalloonCircle/>
+            <Balloon><BalloonContent><h3>과제 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <BalloonDetailBox>
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>과제는 기수가 시작 될 때 기획단에서 기획한 주제 가운데 원하는 것을 선정해 디자이너와 개발자 분들이 팀을 이뤄 과제를 푸는 형식으로 진행됩니다.
+              </ChallengeCircleContent></BalloonDetailContent>
+            </BalloonDetailBox>
+          </BalloonBox>
+
+          <BalloonBox>
+            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>Project progressing</h3></BalloonContent>
+            <BalloonCircle/>
+            <Balloon><BalloonContent><h3>협업활동 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <BalloonDetailBox>
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>각자 팀별로 한 주제를 책임지고 한 학기 동안 이끌어나가게 되며, 방학 중에 최종 결과물 발표회를 가지며 한 기수를 마무리 짓게 됩니다.</ChallengeCircleContent></BalloonDetailContent>
+            </BalloonDetailBox>
+          </BalloonBox>
+
+          <BalloonBox>
+            <BalloonContent style={{color: "#ffffff", fontWeight:"none"} }><h3>The final stage</h3></BalloonContent>
+            <BalloonCircle/>
+            <Balloon><BalloonContent><h3>결과물 공유</h3></BalloonContent><BalloonAfter/></Balloon>
+            <BalloonDetailBox>
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>결과물은 홈페이지 내 아카이빙 공간에 참여한 기수별로 아카이빙 예정입니다.</ChallengeCircleContent></BalloonDetailContent>
+            </BalloonDetailBox>
+          </BalloonBox>
+
+        </ProcessBox>
+
+      </Process>
+
+      <Found>
+        <FoundRowLine></FoundRowLine>
+
+      </Found>
 
     </Wrapper>
   );

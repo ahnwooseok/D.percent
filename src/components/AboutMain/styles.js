@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
-  padding-top: 1800px;
+  padding-top: 2400px;
 `;
 
 
@@ -166,4 +166,120 @@ export const ActivityContent = styled.div`
   font-weight: 350;
   font-size: 24px;
   position: relative;
+`;
+
+
+export const Process = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  padding-top: 14px;
+  position:relative;           //here
+`;
+
+export const RowLine = styled.div`
+  
+  width: 1034px;
+  height: 0px;
+  
+  background: linear-gradient(270deg, #0DFF8B 0%, #FFFA8B 100%, #FFFA8B 100%);
+  border: none;
+  border-top: 2px dotted #26FF97;
+  
+`;
+
+export const Box103 = styled.div`
+  height: 103px;
+`;
+
+export const ProcessBox = styled.div`
+  display: flex;
+  position: relative;
+  
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+`;
+
+export const Balloon = styled.div`
+    position: relative;
+    background: #26FF97;
+    border-radius: .4em;
+    width: 218px;
+    height: 69px;
+`;
+export const BalloonAfter = styled.div`
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: #26FF97;
+  border-bottom: 0;
+  margin-left: -15px;
+  margin-bottom: -15px;
+`;
+export const BalloonContent = styled.div`
+  padding: 25px 10px;
+  text-align: center;
+  align-items: center;
+`;
+
+export const BalloonBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+`;
+
+export const BalloonDetailBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: .4em;
+  margin-top: 20px;
+  background: #ffffff;
+  
+  width: 218px;
+  height: 215px;
+`;
+
+export const BalloonDetailContent = styled.div`
+  padding: 5px 10px;
+  text-align: center;
+  align-items: center;
+`;
+
+export const BalloonCircle = styled.div`
+  position: relative;
+  background: #29B270;
+  border-radius: .4em;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 42px;
+  
+`;
+export const Found = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+export const FoundRowLine = styled.div`
+
+  width: 100%;
+  height: 100px;
+
+  background: linear-gradient(270deg, #0DFF8B 0%, #FFFA8B 100%, #FFFA8B 100%);
+  //background: #404040;
+  
+  border: none;
+  border-top: 2px dotted #26FF97;
+
 `;
