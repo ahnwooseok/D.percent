@@ -143,7 +143,8 @@ function AboutMain() {
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>팀 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
-              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>팀 선정은 사전 설문 답변을 바탕으로 디자이너 + 개발자로 구성됩니다. 같은 직군끼리의 팀원은 꾸려오셔도 되지만 타 직군과 매칭은 랜덤으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
+              <Image src='/assets/images/process-logo1.png' width={48} height={60} />
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>팀 선정은 사전 설문 답변을 바탕으로 디자이너 + 개발자로 구성됩니다. 같은 직군끼리의 팀원은 꾸려오셔도 되지만 타 직군과 매칭은 랜덤으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
             </BalloonDetailBox>
           </BalloonBox>
 
@@ -152,8 +153,8 @@ function AboutMain() {
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>과제 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
-              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>과제는 기수가 시작 될 때 기획단에서 기획한 주제 가운데 원하는 것을 선정해 디자이너와 개발자 분들이 팀을 이뤄 과제를 푸는 형식으로 진행됩니다.
-              </ChallengeCircleContent></BalloonDetailContent>
+              <Image src='/assets/images/process-logo2.png' width={48} height={60} />
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>과제는 기수가 시작 될 때 기획단에서 기획한 주제 가운데 원하는 것을 선정해 디자이너와 개발자 분들이 팀을 이뤄 과제를 푸는 형식으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
             </BalloonDetailBox>
           </BalloonBox>
 
@@ -162,7 +163,8 @@ function AboutMain() {
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>협업활동 선정</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
-              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>각자 팀별로 한 주제를 책임지고 한 학기 동안 이끌어나가게 되며, 방학 중에 최종 결과물 발표회를 가지며 한 기수를 마무리 짓게 됩니다.</ChallengeCircleContent></BalloonDetailContent>
+              <Image src='/assets/images/process-logo3.png' width={48} height={60} />
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>각자 팀별로 한 주제를 책임지고 한 학기 동안 이끌어나가게 되며, 방학 중에 최종 결과물 발표회를 가지며 한 기수를 마무리 짓게 됩니다.</ChallengeCircleContent></BalloonDetailContent>
             </BalloonDetailBox>
           </BalloonBox>
 
@@ -171,7 +173,8 @@ function AboutMain() {
             <BalloonCircle/>
             <Balloon><BalloonContent><h3>결과물 공유</h3></BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
-              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000"}}>결과물은 홈페이지 내 아카이빙 공간에 참여한 기수별로 아카이빙 예정입니다.</ChallengeCircleContent></BalloonDetailContent>
+              <Image src='/assets/images/process-logo4.png' width={48} height={60} />
+              <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>결과물은 홈페이지 내 아카이빙 공간에 참여한 기수별로 아카이빙 예정입니다.</ChallengeCircleContent></BalloonDetailContent>
             </BalloonDetailBox>
           </BalloonBox>
 

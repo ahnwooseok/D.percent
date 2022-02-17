@@ -251,7 +251,7 @@ export const BalloonDetailBox = styled.div`
 `;
 
 export const BalloonDetailContent = styled.div`
-  padding: 5px 10px;
+  padding: 0px 10px;
   text-align: center;
   align-items: center;
 `;
