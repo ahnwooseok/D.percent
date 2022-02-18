@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import DesignerMain from "../components/DesignerMain";
 
 function Designer() {
   return (
@@ -6,7 +7,7 @@ function Designer() {
       <Head>
         <title>Designer | D.Percent</title>
       </Head>
-      <h1 style={{color:"#ffffff"}}>designer</h1>
+      <DesignerMain/>
     </>
   );
 }
