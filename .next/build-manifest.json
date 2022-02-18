@@ -40,6 +40,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/contact.js"
     ],
+    "/designer": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/designer.js"
+    ],
+    "/developer": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/developer.js"
+    ],
     "/project": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
