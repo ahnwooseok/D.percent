@@ -11,55 +11,104 @@ export const Wrapper = styled.main`
   z-index: -1;
 `;
 
-export const Title = styled.h1`
-  color: #ffffff;
-  font-weight: bold;
-  font-family: Noto Sans KR, sans-serif;
-  font-size: 64px;
-`;
-export const SubTitle = styled.h2`
-  color: #dadada;
-  font-weight: 350;
-  font-family: Noto Sans KR, sans-serif;
-  font-size: 16px;
-  margin-top: 14px;
-`;
-
-export const Left = styled.div`
+export const Contact = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 125px;
-`;
-
-export const Right = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 52px;
-  width: 648px;
-  height: 324px;
-`;
-
-export const Anchor = styled.a`
-  display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  background-color: #0dff8b;
-  border-radius: 8px;
-  width: 128px;
-  height: 44px;
-  padding: 8px 10px;
-  color: #333333;
-  font-size: 14px;
-  margin-top: 50px;
+  width:100%;
+
+  padding-top: 300px;
+`;
+
+
+
+export const Title = styled.h1`
+  color: #ffffff;
+  font-weight: 900;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 48px;
+  line-height: 110%;
+
+  padding-bottom: 48px;
+`;
+
+export const TitleBox = styled.h1`
+  display: flex;
+  flex-direction: column;
+  //align-items: center;   //이걸로 배치
+  justify-content: center;
+  width:100%;
+  
+  padding-left:268px;
+  
+`;
+export const SubTitle = styled.h2`
+  color: #DBDBDB;
+  font-weight: normal;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  
+`;
+
+export const MimoBox = styled.div`
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 184px;
+  height: 240px;
+  
+  margin:30px;
+  
+  background: #ffffff;
+  border-radius: 12px;
+`;
+
+
+export const ContactBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+
+
+export const Contents1 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
   font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  padding-top:2px;
+  padding-bottom:2px;
+  
 `;
+export const Contents2 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 16px */
 
-export const Background = styled.div`
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.2;
+  padding-bottom:5px;
+  text-align: center;
+`;
+export const Contents3 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  text-align: center;
 `;

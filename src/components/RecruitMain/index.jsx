@@ -90,7 +90,7 @@ function HomeMain() {
         </Support>
 
         <Notice>
-          <Title style={{fontSize:"30px", fontWeight:"700", marginRight:"900px",paddingBottom:"23px"}}>지원자격</Title>
+          <Title style={{fontSize:"30px", fontWeight:"700", marginRight:"900px",paddingBottom:"23px"}}>유의사항</Title>
           <Title style={{fontSize:"18px", fontWeight:"normal",lineHeight: "36px"}}>
             - 팀으로 프로젝트가 진행되므로 중도하차 시 패널티가 있을 수 있습니다.<br/>
             - 별도의 교육 세션이 준비되어있지는 않습니다.(노션에 팁글 공유예정)<br/>
@@ -116,7 +116,7 @@ function HomeMain() {
 
 
 
-      
+
 
 
       {/*<Background>*/}

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ContactMain from "../components/ContactMain";
 
 function Contact() {
   return (
@@ -6,7 +7,7 @@ function Contact() {
       <Head>
         <title>Contact | D.Percent</title>
       </Head>
-      Contact
+      <ContactMain/>
     </>
   );
 }

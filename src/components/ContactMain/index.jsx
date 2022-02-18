@@ -1,31 +1,81 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Wrapper, Left, Right, SubTitle, Title, Anchor, Background } from './styles';
+import {
+  Wrapper,
+  SubTitle,
+  Title,
+  MimoBox,
+  ContactBox,
+  Contact,
+  TitleBox,
+  Contents1,
+  Contents2,
+  Contents3
+} from "./styles";
 
-function HomeMain() {
+function ContactMain() {
   return (
     <Wrapper>
-      <Left>
-        <Title>
-          IT United crew <br /> for Juniors
-        </Title>
-        <SubTitle>디자이너 X 개발자의 꿈을 위한 첫 발걸음</SubTitle>
-        <Link href='/about' passHref>
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <Anchor>디퍼센트 알아보기</Anchor>
-        </Link>
-      </Left>
 
-      <Right>
-        <Image src='/assets/images/logo-big.png' width={648} height={324} />
-      </Right>
 
-      <Background>
-        <Image src='/assets/images/background.jpeg' layout='fill' />
-      </Background>
+      <Contact>
+
+        <TitleBox>
+          <Title>Contact Us</Title>
+        </TitleBox>
+
+
+        <SubTitle>Crew President</SubTitle>
+        <MimoBox>
+          <Image src='/assets/images/mimo1.png' width={148} height={148} />
+          <Contents1>박찬빈</Contents1>
+          <Contents2>커뮤니케이션디자인학과</Contents2>
+          <Contents3>Kakao ID : beantom</Contents3>
+        </MimoBox>
+
+
+        <TitleBox>
+          <SubTitle>Planning team</SubTitle>
+        </TitleBox>
+
+        <ContactBox>
+          <MimoBox>
+            <Image src='/assets/images/mimo2.png' width={148} height={148} />
+            <Contents1>안우석</Contents1>
+            <Contents2>컴퓨터공학과</Contents2>
+            <Contents3>Kakao ID : peterdntjr</Contents3>
+          </MimoBox>
+
+          <MimoBox>
+            <Image src='/assets/images/mimo3.png' width={148} height={148} />
+            <Contents1>이지환</Contents1>
+            <Contents2>컴퓨터공학부</Contents2>
+            <Contents3>Kakao ID : wlghks0508</Contents3>
+          </MimoBox>
+
+          <MimoBox>
+            <Image src='/assets/images/mimo4.png' width={148} height={148} />
+            <Contents1>백윤아</Contents1>
+            <Contents2>산업디자인학과</Contents2>
+            <Contents3>Kakao ID : milkiii</Contents3>
+          </MimoBox>
+
+          <MimoBox>
+            <Image src='/assets/images/mimo5.png' width={148} height={148} />
+            <Contents1>김예은</Contents1>
+            <Contents2>커뮤니케이션디자인학과</Contents2>
+            <Contents3>Kakao ID : dnwjd980</Contents3>
+          </MimoBox>
+        </ContactBox>
+
+      </Contact>
+
+
+
+
     </Wrapper>
   );
 }
 
-export default HomeMain;
+export default ContactMain;
