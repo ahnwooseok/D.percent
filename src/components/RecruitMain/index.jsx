@@ -34,7 +34,7 @@ function HomeMain() {
             recruitment
           </Title>
 
-          <Link href='/about' passHref>
+          <Link href='/select' passHref>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Anchor>참여하기</Anchor>
           </Link>

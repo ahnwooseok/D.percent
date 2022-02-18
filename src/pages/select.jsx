@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import SelectMain from "../components/SelectMain";
 
 function Select() {
   return (
@@ -6,7 +7,8 @@ function Select() {
       <Head>
         <title>Select | D.Percent</title>
       </Head>
-      <h1 style={{color:"#ffffff"}}>select</h1>
+      <SelectMain/>
+
     </>
   );
 }
