@@ -1,12 +1,13 @@
 
 
 
-function Check({name,array,data,setData}) {
+function Check({name,array,setData}) {
   const onChange = (event) => {
     console.log(event.target.id);
     setData(event.target.id);
   }
   return (
+    //버튼 가로배치
     <div style={{display : "flex", paddingTop:"16px"}}>
       {array.map((cur,idx) =>
         <div key={idx} >   {/* checktext에 for 문이랑 같은느낌  */}
@@ -28,16 +29,3 @@ function Check({name,array,data,setData}) {
 }
 
 export default Check;
-
-
-// export const Check1 = styled.input`
-//   font-family: Noto Sans KR, sans-serif;
-//   font-weight: normal;
-//
-//   type: radio;
-//
-//   width:100px;
-//   height:100px;
-//
-//
-// `;

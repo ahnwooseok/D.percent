@@ -7,6 +7,7 @@ import {
 } from "./styles";
 import Check from "./Check";
 import Text from "./Text"
+import CheckText from "./CheckText"
 
 
 
@@ -59,7 +60,7 @@ function DesignerMain() {
           <Box52></Box52>
 
           <SubTitle>학년</SubTitle>
-          <Check name="grade" data={grade} setData={setGrade} array={["2학년", "3학년", "4학년", "졸업"]}/>
+          <Check name="grade" setData={setGrade} array={["2학년", "3학년", "4학년", "졸업"]}/>
           <Box52></Box52>
 
           <SubTitle>학번</SubTitle>
@@ -72,19 +73,19 @@ function DesignerMain() {
           <div style={{height:"26px"}}></div>
 
           <SubTitle>교내,교외에서 UX/UI수업이나 관련 활동한 경험이 있으신가요?</SubTitle>
-          <Check name="experience1" data={experience1} setData={setExperience1} array={["있음", "없음"]}/>
+          <Check name="experience1" setData={setExperience1} array={["있음", "없음"]}/>
           <Box52></Box52>
 
           <SubTitle>학과수업 이외의 대외활동이나 스터디 등에서 앱, 웹서비스 작업을 해본 경험이 있으신가요?</SubTitle>
-          <SubTitle>체크택스트 experience2</SubTitle>
+          <CheckText name="experience2" array={["있음", "없음", "기타"]} data={experience2} setData={setExperience2}></CheckText>
           <Box52></Box52>
 
           <SubTitle>개발자와 협업을 해 본 경험이 있으신가요?</SubTitle>
-          <Check name="experience3" data={experience3} setData={setExperience3} array={["있음", "없음"]}/>
+          <Check name="experience3" setData={setExperience3} array={["있음", "없음"]}/>
           <Box52></Box52>
 
           <SubTitle>동아리에서 기대하는 활동 수준을 선택해주세요.</SubTitle>
-          <SubTitle>체크택스트 activity</SubTitle>
+          <CheckText name="activity" array={["미흡하더라도 단순 협업 연습", "포트폴리오가 될만한 작업", "기타"]} data={activity} setData={setActivity}></CheckText>
           <Box52></Box52>
 
           <SubTitle>원활한 주제 선정을 위해 작업에 있어서 관심 분야가 있으면 간략히 적어주세요. (ex.커머스,금융,여행)</SubTitle>
