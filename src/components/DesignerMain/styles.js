@@ -17,12 +17,12 @@ export const Designer = styled.div`
   justify-content: center;
   margin-top: 100vh;
   width: 80vw;
-  height: 1200px;
+  height: 1400px;
   background: #ffffff;
   border-radius: 12px;
 `;
 
-export const DesignerArrange = styled.div`
+export const DesignerArrange = styled.form`
   display: flex;
   flex-direction: column;
   //align-items: center;    //좌정렬
@@ -55,48 +55,23 @@ export const SubTitle = styled.div`
   color: #111111;
 `;
 
-export const Text = styled.input`
-  type: text;
-  height:48px;
-  width:80%;
-  font-size:32px;
-  margin-top: 9px;
+export const Button = styled.button`
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
   
-  border: 1px solid #CCCCCC;
-  box-sizing: border-box;
+  margin-top: 40px;
+  background-color: #111111;
+  width: 152px;
+  height: 48px;
   border-radius: 12px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  margin-left:56vw;
+  margin-bottom:12px;
   
+  cursor:pointer;
 `;
-
-export const Check = styled.input`
-  
-  type: radio;
-  
-  width:100px;
-  height:100px;
-  background-color: ${props => `${props.color}`};
-`;
-
-// function Check({title,array,data,setData}) {
-//   const onChange = (event) => {
-//     setData(event.target.id);
-//   }
-//   return (
-//     <div>
-//       {title}
-//       {array.map((i,di) =>
-//         <div key={di} >   {/* checktext에 for 문이랑 같은느낌  */}
-//           <input
-//             c
-//             name={title}
-//             id={i}
-//             onChange={onChange}
-//           />
-//           <label htmlFor={i}>{i}</label>
-//         </div>
-//       )}
-//       <hr/>
-//     </div>
-//   );
-
-
