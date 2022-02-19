@@ -15,9 +15,9 @@ export const Designer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100vh;
+  margin-top: 140vh;
   width: 80vw;
-  height: 1400px;
+  height: 1600px;
   background: #ffffff;
   border-radius: 12px;
 `;

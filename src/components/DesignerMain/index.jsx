@@ -8,6 +8,7 @@ import {
 import Check from "./Check";
 import Text from "./Text"
 import CheckText from "./CheckText"
+import { Anchor } from "../RecruitMain/styles";
 
 
 
@@ -31,6 +32,9 @@ function DesignerMain() {
         <DesignerArrange    //form 태그
           onSubmit={(event)=>{
             event.preventDefault();
+            alert("지원완료!");
+
+
             console.log({
               name:name,
               department:department,
@@ -77,7 +81,7 @@ function DesignerMain() {
           <Box52></Box52>
 
           <SubTitle>학과수업 이외의 대외활동이나 스터디 등에서 앱, 웹서비스 작업을 해본 경험이 있으신가요?</SubTitle>
-          <CheckText name="experience2" array={["있음", "없음", "기타"]} data={experience2} setData={setExperience2}></CheckText>
+          <CheckText name="experience2" array={["있음", "없음", "기타"]} setData={setExperience2}></CheckText>
           <Box52></Box52>
 
           <SubTitle>개발자와 협업을 해 본 경험이 있으신가요?</SubTitle>
@@ -85,13 +89,16 @@ function DesignerMain() {
           <Box52></Box52>
 
           <SubTitle>동아리에서 기대하는 활동 수준을 선택해주세요.</SubTitle>
-          <CheckText name="activity" array={["미흡하더라도 단순 협업 연습", "포트폴리오가 될만한 작업", "기타"]} data={activity} setData={setActivity}></CheckText>
+          <CheckText name="activity" array={["미흡하더라도 단순 협업 연습", "포트폴리오가 될만한 작업", "기타"]} setData={setActivity}></CheckText>
           <Box52></Box52>
 
           <SubTitle>원활한 주제 선정을 위해 작업에 있어서 관심 분야가 있으면 간략히 적어주세요. (ex.커머스,금융,여행)</SubTitle>
           <Text data={interest} setData={setInterest}/>
 
+
           <Button>제출하기</Button>
+
+
 
         </DesignerArrange>
       </Designer>

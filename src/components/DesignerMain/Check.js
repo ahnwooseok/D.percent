@@ -9,6 +9,7 @@ function Check({name,array,setData}) {
   return (
     //버튼 가로배치
     <div style={{display : "flex", paddingTop:"16px"}}>
+
       {array.map((cur,idx) =>
         <div key={idx} >   {/* checktext에 for 문이랑 같은느낌  */}
           <input
