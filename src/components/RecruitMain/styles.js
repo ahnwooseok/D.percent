@@ -62,13 +62,17 @@ export const Anchor = styled.a`
 
 export const Background = styled.div`
   z-index: -1;
-  position: absolute;
+  position: absolute; 
   width: 100%;
-  height: 547px;
-  //opacity: 0.8;
-  background-size: cover;
-  padding-top: 500px;
+  height: 100%;  
+  background-size:  cover;
+  //margin-bottom: 30%;
+  //background-image: url('../../../public/assets/images/recruit-background.png');
+  //아래로 어떻게 끄냐....
+  
 `;
+
+
 
 
 export const RowLine = styled.div`

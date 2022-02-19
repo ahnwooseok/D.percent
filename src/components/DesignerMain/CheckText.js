@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 
-function Checktext({name, array,setData}){
+function CheckText({name, array,setData}){
   const [other, setOther] = useState("");            //기타의내용
   const [isOther, setIsOther] = useState(false);    //기타가 선택됐는지 플래그
 
@@ -73,4 +73,4 @@ function Checktext({name, array,setData}){
   );
 }
 
-export default Checktext;
+export default CheckText;

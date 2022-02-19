@@ -214,7 +214,6 @@ function AboutMain() {
           </FoundContent>
         </FoundBox>
       </Found>
-
     </Wrapper>
   );
 }

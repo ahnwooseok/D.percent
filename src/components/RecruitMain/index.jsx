@@ -21,6 +21,7 @@ import {
   ProcessBox,
   RowLine
 } from "../RecruitMain/styles";
+import { Background } from "./styles";
 
 function HomeMain() {
   return (
@@ -112,15 +113,11 @@ function HomeMain() {
 
       </Recruit>
 
+      <Background>
+        <Image src='/assets/images/recruit-background.png' layout='fill' />
+      </Background>
 
 
-
-
-
-
-      {/*<Background>*/}
-      {/*  <Image src='/assets/images/recruit-background.png' layout='fill' />*/}
-      {/*</Background>*/}
     </Wrapper>
   );
 }
