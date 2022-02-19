@@ -19,6 +19,7 @@ function Checktext({name, array,setData}){
               setData(event.target.id);
               setOther("");
               setIsOther(false);
+              console.log(event)
               console.log(event.target.id);
             }}
           />
@@ -44,6 +45,7 @@ function Checktext({name, array,setData}){
         onChange={(event) => {
           setData(event.target.id);
           setIsOther(true);
+          console.log(event);
           console.log(event.target.id);
         }}
       />
@@ -61,6 +63,7 @@ function Checktext({name, array,setData}){
         onChange={(event) => {
           setOther(event.target.value);
           setData(other);
+          console.log(event)
           console.log(other);
         }}
       />

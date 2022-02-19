@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React, {useState} from 'react'
 import {
   Wrapper,
@@ -8,9 +6,26 @@ import {
 import Check from "./Check";
 import Text from "./Text"
 import CheckText from "./CheckText"
-import { Anchor } from "../RecruitMain/styles";
+import axios from 'axios';
 
 
+
+
+async function Submit(name,depart,grade,id_num,q1,q2,q3,q4,ads ){
+  try {
+    // loading 상태를 true 로 바꿉니다.
+
+    const response = await axios.get(
+      'https://ksun1234.cafe24.com/useock/Submit.php?Name='+name+'&Depart='+depart+'&Grade='+grade+'&ID_num='+id_num+'&Q1='+q1+'&Q2='+q2+'&Q3='+q3+'&Q4='+q4+'&AndSoOn='+ads
+
+    );
+    console.log(response.data);
+    return true;
+  } catch (e) {
+    return false;
+  }
+
+};
 
 
 function DesignerMain() {
@@ -32,8 +47,8 @@ function DesignerMain() {
         <DesignerArrange    //form 태그
           onSubmit={(event)=>{
             event.preventDefault();
-            alert("지원완료!");
-
+            // alert("지원완료!");
+            alert(Submit(name,department,grade,studentId,experience1,experience2,experience3,activity,interest)?"성공적으로 제출되었습니다.":"비정상 제출입니다.");
 
             console.log({
               name:name,

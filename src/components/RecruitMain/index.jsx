@@ -5,7 +5,6 @@ import {
   Wrapper,
   Title,
   Anchor,
-  Background,
   RecruitBox,
   Recruit,
   Box209,
