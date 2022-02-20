@@ -48,7 +48,7 @@ export const Anchor = styled.a`
   background-color: #0dff8b;
   font-family: Noto Sans KR, sans-serif;
   border-radius: 8px;
-  width: 132px;   //128px
+  width: 140px;   //128px
   height: 44px;
   padding: 8px 10px;
   color: #333333;

@@ -24,13 +24,18 @@ export const RecruitBox = styled.div`
   display: flex;
   flex-direction: column;
   
-  align-items: center;
+  //align-items: center;
   justify-content: center;
   
   
   
-  padding-right:1000px;        ///아이패드에서 나오는거 체크
+  //padding-right:1000px;        ///아이패드에서 나오는거 체크
+  
+  width:1280px;
+  
+  
 `;
+
 
 export const Title = styled.h1`
   color: #ffffff;
