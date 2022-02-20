@@ -31,7 +31,7 @@ export const RecruitBox = styled.div`
   
   //padding-right:1000px;        ///아이패드에서 나오는거 체크
   
-  width:56%;
+  width: 64%;
   
   
 `;
