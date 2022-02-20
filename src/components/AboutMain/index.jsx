@@ -45,10 +45,10 @@ function AboutMain() {
           <MainContents>
             <span style={{color: "#0DFF8B"}}>D.PERCENT</span>는 IT 생태계의 주인공인<br/>
             <span style={{fontWeight:"bold"}}>디자이너와 개발자를 위한 모임</span>입니다.<br/><br/>
-            D.PERCENT에서<br/>
+            <span style={{fontWeight:"bold"}}>D.PERCENT에서</span><br/>
             재능 있는 디자이너와 개발자가 함께 모여<br/>
-            자유로운 분위기에서 어울려 의견을 나누고<br/>
-            도움을 주고받으며 협업하는 과정을 통해<br/>
+            자유로운 분위기에서 어울려 <span style={{fontWeight:"bold"}}>의견을 나누고</span><br/>
+            <span style={{fontWeight:"bold"}}>도움을 주고받으며 협업하는 과정</span>을 통해<br/>
             원하는 서비스를 제작의 경험을 할 수 있습니다.<br/>
           </MainContents>
         </MainRight>
@@ -56,9 +56,9 @@ function AboutMain() {
 
       <MainBottom>
         <MainContents>
-          <span style={{color: "#0DFF8B"}}>D.PERCENT</span>의 D는 IT직종의 주인공인 디자이너(Designer)와 개발자(Developer)의 공통인 이니셜에서 착안했습니다.<br/>
-          Percent(%)는 보통 0과 1사이를 의미합니다. 이는 이진법의 언어가 0과 1로 이루어져있는 것에서 컴퓨터 언어와 닮아있고,<br/>
-          두개의 0이 모여 하나의 기호를 이루는 것 처럼 디자이너와 개발자가 모여 하나의 단체를 이룬다는 것을 상징합니다.<br/>
+          <span style={{color: "#0DFF8B"}}>D.PERCENT</span>의 D는 IT직종의 주인공인 디자이너(Designer)와 개발자(Developer)의 <span style={{fontWeight:"bold"}}>공통인 이니셜</span>에서 착안했습니다.<br/>
+          <span style={{fontWeight:"bold"}}>Percent</span>(%)는 보통 0과 1사이를 의미합니다. 이는 <span style={{fontWeight:"bold"}}>이진법의 언어</span>가 0과 1로 이루어져있는 것에서 컴퓨터 언어와 닮아있고,<br/>
+          두개의 0이 모여 하나의 기호를 이루는 것 처럼 <span style={{fontWeight:"bold"}}>디자이너와 개발자가 모여 하나의 단체</span>를 이룬다는 것을 상징합니다.<br/>
         </MainContents>
       </MainBottom>
 

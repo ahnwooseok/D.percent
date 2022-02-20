@@ -60,8 +60,11 @@ export const Line = styled.div`
   
   padding-top: 2px;
   transform: rotate(90deg);
-  border: 2px solid;
+  //border: 2px solid;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
+  
+
+
 `;
 export const Title = styled.h1`
   color: #ffffff;
