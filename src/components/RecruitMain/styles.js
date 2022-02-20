@@ -117,11 +117,11 @@ export const BalloonAfter = styled.div`
   left: 50%;
   width: 0;
   height: 0;
-  border: 18px solid transparent;
+  border: 8px solid transparent;
   border-bottom-color: #ffffff;
   border-top: 0;
-  margin-left: -18px;
-  margin-top: -18px;
+  margin-left: -8px;
+  margin-top: -8px;
 `;
 export const BalloonContent = styled.div`
   padding: 25px 10px;
@@ -135,7 +135,7 @@ export const BalloonBox = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
+  margin: 32px 10px;
 `;
 
 

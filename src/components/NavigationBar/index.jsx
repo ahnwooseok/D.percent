@@ -6,7 +6,7 @@ import { Wrapper } from './styles';
 
 const routes = [
   { path: '/about', name: 'About' },
-  { path: '/project', name: 'Project' },
+  // { path: '/project', name: 'Project' },
   { path: '/recruitment', name: 'Recruitment' },
   { path: '/contact', name: 'Contact' },
 ];

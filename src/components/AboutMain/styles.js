@@ -136,7 +136,8 @@ export const ChallengeCircleContent = styled.p`
   font-style: normal;
   line-height: 150%;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 12px;
+  //letter-spacing: 0.5px;
 `;
 
 export const Activity = styled.div`
@@ -209,24 +210,24 @@ export const ProcessBox = styled.div`
 `;
 
 export const Balloon = styled.div`
-    position: relative;
-    background: #26FF97;
-    border-radius: .4em;
-    width: 218px;
-    height: 69px;
+  position: relative;
+  background: #26FF97;
+  border-radius: .4em;
+  width: 218px;
+  height: 69px;
 `;
 export const BalloonAfter = styled.div`
   content: '';
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 50%;
   width: 0;
   height: 0;
-  border: 15px solid transparent;
-  border-top-color: #26FF97;
-  border-bottom: 0;
-  margin-left: -15px;
-  margin-bottom: -15px;
+  border: 8px solid transparent;
+  border-bottom-color: #26FF97;
+  border-top: 0;
+  margin-left: -8px;
+  margin-top: -8px;
 `;
 export const BalloonContent = styled.div`
   padding: 25px 10px;
@@ -240,7 +241,7 @@ export const BalloonBox = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
+  margin:32px 10px;
 `;
 
 export const BalloonDetailBox = styled.div`

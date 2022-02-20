@@ -13,7 +13,7 @@ function HomeMain() {
         <SubTitle>디자이너 X 개발자의 꿈을 위한 첫 발걸음</SubTitle>
         <Link href='/about' passHref>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <Anchor>디퍼센트 알아보기 ></Anchor>
+          <Anchor>디퍼센트 알아보기</Anchor>
         </Link>
       </Left>
 
