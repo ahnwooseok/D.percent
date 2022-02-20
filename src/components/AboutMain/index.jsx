@@ -204,12 +204,12 @@ function AboutMain() {
             <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>안우석</Title>
             <Title style={{fontSize:"18px", color:"#0DFF8B",paddingTop:"0px",paddingBottom:"12px",fontWeight:"500"}}>이지환</Title>
           </FoundContent>
-          <FoundContent style={{paddingTop:"11px",paddingLeft:"30px"}}>
-            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"19px",fontWeight:"350"}}>Designer & Crew president</Title>
-            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"19px",fontWeight:"350"}}>Designer</Title>
-            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"19px",fontWeight:"350"}}>Designer</Title>
-            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"19px",fontWeight:"350"}}>Developer</Title>
-            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"19px",fontWeight:"350"}}>Developer</Title>
+          <FoundContent style={{marginTop:"7px",paddingLeft:"30px"}}>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"18px",fontWeight:"350"}}>Designer & Crew president</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"18px",fontWeight:"350"}}>Designer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"18px",fontWeight:"350"}}>Designer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"18px",fontWeight:"350"}}>Developer</Title>
+            <Title style={{fontSize:"14px",paddingTop:"0px",paddingBottom:"18px",fontWeight:"350"}}>Developer</Title>
           </FoundContent>
           <FoundColumnLine/>
           <FoundContent style={{paddingTop:"16px",paddingLeft:"30px"}}>

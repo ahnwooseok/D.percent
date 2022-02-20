@@ -299,8 +299,11 @@ export const FoundBox = styled.div`
 `;
 export const FoundContent = styled.div`
   display: flex;
-  justify-content: center;
+  //justify-content: center;
+  justify-items: center;
+  vertical-align: center;
   //align-items: center;
+  //text-align: center;
   flex-direction: column;
 `;
 export const FoundColumnLine = styled.div`
