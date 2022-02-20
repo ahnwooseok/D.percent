@@ -14,7 +14,7 @@ export const Wrapper = styled.main`
 
 
 export const MarginBox = styled.div`
-  height:300px;
+  height:500px;
 `;
 
 export const RecruitBox = styled.div`
