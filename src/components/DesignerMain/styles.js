@@ -15,7 +15,7 @@ export const Designer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 140vh;
+  margin-top: 124vh;  //140vh
   width: 80vw;
   height: 1600px;
   background: #ffffff;
