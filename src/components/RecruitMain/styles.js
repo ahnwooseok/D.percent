@@ -42,6 +42,7 @@ export const Title = styled.h1`
 
 
 export const Anchor = styled.a`
+  font-family: Noto Sans KR, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +102,10 @@ export const ProcessBox = styled.div`
 
 export const Balloon = styled.div`
   position: relative;
+  justify-content: center;
+  align-items: center;
   background: #ffffff;
+  padding-top: 10px;
   border-radius: .4em;
     width: 200px;
     height: 80px;
@@ -123,6 +127,7 @@ export const BalloonContent = styled.div`
   padding: 25px 10px;
   text-align: center;
   align-items: center;
+  font-family: Noto Sans KR, sans-serif;
 `;
 
 export const BalloonBox = styled.div`
@@ -192,6 +197,7 @@ export const Anchor2 = styled.a`
   padding: 10px;
   color: #ffffff;
   font-size: 16px;
+  font-family: Noto Sans KR, sans-serif;
   
   //margin-top: 45px;
   //margin-right: 100px;

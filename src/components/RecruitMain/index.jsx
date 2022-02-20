@@ -36,7 +36,7 @@ function HomeMain() {
 
           <Link href='/select' passHref>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <Anchor>참여하기</Anchor>
+            <Anchor>참여하기 &nbsp; ></Anchor>
           </Link>
         </RecruitBox>
 
@@ -55,23 +55,23 @@ function HomeMain() {
         <ProcessBox>
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>신청서 접수</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"500"}}>신청서 접수</BalloonContent><BalloonAfter/></Balloon>
           </BalloonBox>
 
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>팀 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"500"}}>팀 선정</BalloonContent><BalloonAfter/></Balloon>
           </BalloonBox>
 
           <BalloonBox>
 
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>최종 팀 발표</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"500"}}>최종 팀 발표</BalloonContent><BalloonAfter/></Balloon>
           </BalloonBox>
 
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>정규 활동</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"500"}}>정규 활동</BalloonContent><BalloonAfter/></Balloon>
           </BalloonBox>
 
         </ProcessBox>
@@ -104,7 +104,7 @@ function HomeMain() {
 
             <Link href='/contact' passHref>
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <Anchor2>연락망 바로가기</Anchor2>
+              <Anchor2>연락망 바로가기 &nbsp; ></Anchor2>
             </Link>
           </QuestionBox>
         </Question>

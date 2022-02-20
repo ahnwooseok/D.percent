@@ -111,7 +111,7 @@ function DesignerMain() {
           <Text data={interest} setData={setInterest}/>
 
 
-          <Button>제출하기</Button>
+          <Button>제출하기 ></Button>
 
 
 

@@ -80,4 +80,11 @@ export const Anchor = styled.a`
 `;
 
 
+export const ColumnBox = styled.div`
+  display:flex;
+  flex-direction: column;
+  
+
+`;
+
 
