@@ -25,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/designer": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/designer.js"
+    ],
     "/recruitment": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/recruitment.js"
+    ],
+    "/select": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/select.js"
     ]
   },
   "ampFirstPages": []

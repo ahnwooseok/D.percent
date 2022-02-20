@@ -7,7 +7,7 @@ import {
 } from "./styles";
 
 
-function ContactMain() {
+function SelectMain() {
   return (
     <Wrapper>
 
@@ -23,6 +23,8 @@ function ContactMain() {
 
 
           <SelectArrange>
+
+
             <SelectBox>
               <Image src='/assets/images/select1.png' width={70} height={105} />
               <Link href='/designer' passHref>
@@ -30,6 +32,7 @@ function ContactMain() {
                 <Anchor>디자이너(Designer)</Anchor>
               </Link>
             </SelectBox>
+
             <SelectBox>
               <Image src='/assets/images/select2.png' width={70} height={105} />
               <Link href='/developer' passHref>
@@ -37,7 +40,9 @@ function ContactMain() {
                 <Anchor>개발자(Developer)</Anchor>
               </Link>
             </SelectBox>
+
           </SelectArrange>
+
         </ColumnBox>
 
 
@@ -53,4 +58,4 @@ function ContactMain() {
   );
 }
 
-export default ContactMain;
+export default SelectMain;
