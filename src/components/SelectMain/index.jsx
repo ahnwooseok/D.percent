@@ -15,6 +15,7 @@ function SelectMain() {
       <Select>
 
         <ColumnBox>
+
           <div style={{paddingBottom:"60px", paddingLeft:"32px"}}>
             <SubTitle>지원서 작성하기</SubTitle>
             <Title>당신의 역할은 무엇인가요?</Title>

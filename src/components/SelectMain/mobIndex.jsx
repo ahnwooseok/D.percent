@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Anchor, Select, SelectBox, Wrapper } from "./mobStyleds";
+import { Anchor, MarginBox, Select, SelectBox, Wrapper } from "./mobStyleds";
 import { Title } from "./styles";
 
 
@@ -12,6 +12,7 @@ function MobSelectMain() {
 
 
       <Select>
+        <MarginBox/>
         <Title>당신의 역할은 무엇인가요?</Title>
         <div style={{margin:"20px"}} />
         <SelectBox>

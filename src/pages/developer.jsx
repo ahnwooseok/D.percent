@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import DeveloperMain from "../components/DeveloperMain";
 
 function Developer() {
   return (
@@ -6,7 +7,7 @@ function Developer() {
       <Head>
         <title>Developer | D.Percent</title>
       </Head>
-      <h1 style={{color:"#ffffff"}}>developer</h1>
+      <DeveloperMain/>
     </>
   );
 }

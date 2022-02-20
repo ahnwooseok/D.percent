@@ -21,6 +21,10 @@ export const Select = styled.div`
   
 `;
 
+export const MarginBox = styled.div`
+  height:400px;
+`;
+
 export const Title = styled.h1`
   color: #ffffff;
   font-weight: bold;

@@ -5,6 +5,7 @@ import Image from 'next/image';
 const useStyles = makeStyles((theme) => ({
   container: {
     // background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)",   //배경
+
   },
   wrapper: {
     padding: "10px 164px",
@@ -76,6 +77,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "100vh",
     // background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",    //들어갈때 배경
+    // background:"#000000",
     transform: "translateX(100%)",
     transition: "all 0.5s ease-in-out",
   },
@@ -84,6 +86,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "100vh",
     // background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",        //나올때 배경
+    // background:"#000000",
     transform: "translateX(50%)",
     transition: "all 0.5s ease-in-out",
   },
@@ -115,7 +118,7 @@ const ham = () => {
     <div className={classes.main}>
       <div className={classes.container}>
         <div className={classes.wrapper}>
-          <img src="./mob-logo.png" alt="logo" className={classes.img} />
+          {/*<img src="./mob-logo.png" alt="logo" className={classes.img} />*/}
 
 
           <div onClick={() => setActive(!active)}>
