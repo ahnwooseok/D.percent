@@ -307,7 +307,7 @@ export const FoundColumnLine = styled.div`
   margin-top: 64px;
   margin-left: 223px;
   transform: rotate(90deg);
-  border: 0.5px solid;
+  //border: 0.5px solid;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
 
 
