@@ -41,7 +41,7 @@ export const SubTitle = styled.h2`
 `;
 
 export const MarginBox = styled.div`
-  height:200px;
+  height:500px;
 `;
 
 
