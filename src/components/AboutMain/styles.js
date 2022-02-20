@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
-  padding-top: 2800px;
+  padding-top: 2600px;
 `;
 
 

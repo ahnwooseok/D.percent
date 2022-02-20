@@ -44,7 +44,7 @@ function AboutMain() {
         <MainRight>
           <MainContents>
             <span style={{color: "#0DFF8B"}}>D.PERCENT</span>는 IT 생태계의 주인공인<br/>
-            디자이너와 개발자를 위한 모임입니다.<br/><br/>
+            <span style={{fontWeight:"bold"}}>디자이너와 개발자를 위한 모임</span>입니다.<br/><br/>
             D.PERCENT에서<br/>
             재능 있는 디자이너와 개발자가 함께 모여<br/>
             자유로운 분위기에서 어울려 의견을 나누고<br/>

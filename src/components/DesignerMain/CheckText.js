@@ -23,6 +23,7 @@ function CheckText({name, array,setData}){
               console.log(event.target.id);
             }}
           />
+
           <label htmlFor={array[i]}>{array[i]}</label>
         </div>
       )

@@ -25,7 +25,7 @@ async function Submit(name,depart,grade,id_num,q1,q2,q3,q4,ads ){
     return false;
   }
 
-};
+}
 
 
 function DesignerMain() {

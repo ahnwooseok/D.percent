@@ -68,7 +68,7 @@ export const Background = styled.div`
   background-size:  cover;
   //margin-bottom: 30%;
   //background-image: url('../../../public/assets/images/recruit-background.png');
-  //아래로 어떻게 끄냐....
+  //위로로 어떻게 끄냐....
   
 `;
 
