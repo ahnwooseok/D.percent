@@ -42,7 +42,7 @@ function AboutMain() {
           <Image src='/assets/images/logo-about.svg' width={428} height={283} />
         </MainLeft>
         <MainRight>
-          <MainContents>
+          <MainContents style={{fontSize:"20px"}}>
             <span style={{color: "#0DFF8B"}}>D.PERCENT</span>는 IT 생태계의 주인공인<br/>
             <span style={{fontWeight:"bold"}}>디자이너와 개발자를 위한 모임</span>입니다.<br/><br/>
             <span style={{fontWeight:"bold"}}>D.PERCENT에서</span><br/>

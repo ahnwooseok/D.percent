@@ -21,7 +21,7 @@ export const MainLeft = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 156px;
-  padding-right: 130px;
+  padding-right: 112px;
   justify-content: center;
   align-items: center;
 `;
@@ -62,7 +62,8 @@ export const Line = styled.div`
   transform: rotate(90deg);
   //border: 2px solid;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.37) 37.5%, #FFFFFF 56.67%, rgba(255, 255, 255, 0.46) 79.58%, rgba(255, 255, 255, 0) 100%);
-  
+  margin-top: 36px;
+  margin-bottom: 36px;
 
 
 `;
@@ -80,6 +81,7 @@ export const Title = styled.h1`
 export const ChallengeBox = styled.div`
   display: flex;
   padding-top: 128px;
+  margin-bottom: 120px;
 `;
 
 
@@ -127,7 +129,7 @@ export const ChallengeCircleContent = styled.p`
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top : 65px;
+  padding-top : 40px;
   
   color: #ffffff;
   font-family: Noto Sans KR, sans-serif;
