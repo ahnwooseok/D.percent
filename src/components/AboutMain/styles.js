@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `;
 export const MainTop = styled.div`
   display: flex;
-  padding-top: 2600px;
+  padding-top: 2800px;
 `;
 
 
@@ -202,10 +202,10 @@ export const Box103 = styled.div`
 export const ProcessBox = styled.div`
   display: flex;
   position: relative;
-  
+  width:100%;        // here!
   justify-content: center;
   align-items: center;
-  z-index: 3;
+  z-index: 3;   
 `;
 
 export const Balloon = styled.div`
@@ -232,6 +232,7 @@ export const BalloonContent = styled.div`
   padding: 25px 10px;
   text-align: center;
   align-items: center;
+  font-family: Noto Sans KR, sans-serif;
 `;
 
 export const BalloonBox = styled.div`
@@ -298,7 +299,7 @@ export const FoundBox = styled.div`
 export const FoundContent = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
   flex-direction: column;
 `;
 export const FoundColumnLine = styled.div`

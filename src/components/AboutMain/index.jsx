@@ -69,7 +69,7 @@ function AboutMain() {
 
         <ChallengeBox>
 
-          <ChallengeCircle style={{color: "#FFFA8B", fontWeight: "bold"}}>
+          <ChallengeCircle style={{color: "#FFFA8B"}}>
             <ChallengeCircleTitle>VISION</ChallengeCircleTitle>
             <ChallengeCircleSubTitle>미래형 인재의 첫 걸음</ChallengeCircleSubTitle>
             <ChallengeCircleContent>
@@ -81,8 +81,7 @@ function AboutMain() {
           </ChallengeCircle>
 
 
-
-          <ChallengeCircle>
+          <ChallengeCircle style={{color:"#B9FC8B"}}>
             <ChallengeCircleTitle>ACTIVITY</ChallengeCircleTitle>
             <ChallengeCircleSubTitle>팀별 프로젝트</ChallengeCircleSubTitle>
             <ChallengeCircleContent>
@@ -136,10 +135,10 @@ function AboutMain() {
         <Box103/>
 
         <ProcessBox>
-          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"80px"} }><h3>Teambuilding</h3></BalloonContent>
-          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"110px"} }><h3>Search</h3></BalloonContent>
-          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px", marginRight:"100px"} }><h3>Project progressing</h3></BalloonContent>
-          <BalloonContent style={{color: "#ffffff", fontWeight:"normal", fontSize: "12px"} }><h3>The final stage</h3></BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontSize: "12px", marginLeft:"58px", marginRight:"58px", width:"120px"} }>Teambuilding</BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontSize: "12px", marginLeft:"58px", marginRight:"58px", width:"120px"} }>Search</BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontSize: "12px", marginLeft:"58px", marginRight:"58px", width:"120px"} }>Project progressing</BalloonContent>
+          <BalloonContent style={{color: "#ffffff", fontSize: "12px", marginLeft:"58px", marginRight:"58px", width:"120px"} }>The final stage</BalloonContent>
         </ProcessBox>
         <RowLine></RowLine>
 
@@ -148,7 +147,7 @@ function AboutMain() {
           <BalloonBox>
 
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>팀 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"bold", fontSize:"18px"}}>팀 선정</BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
               <Image src='/assets/images/process-logo1.png' width={48} height={60} />
               <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>팀 선정은 사전 설문 답변을 바탕으로 디자이너 + 개발자로 구성됩니다. 같은 직군끼리의 팀원은 꾸려오셔도 되지만 타 직군과 매칭은 랜덤으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
@@ -157,7 +156,7 @@ function AboutMain() {
 
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>과제 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"bold", fontSize:"18px"}}>과제 선정</BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
               <Image src='/assets/images/process-logo2.png' width={48} height={60} />
               <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>과제는 기수가 시작 될 때 기획단에서 기획한 주제 가운데 원하는 것을 선정해 디자이너와 개발자 분들이 팀을 이뤄 과제를 푸는 형식으로 진행됩니다.</ChallengeCircleContent></BalloonDetailContent>
@@ -166,7 +165,7 @@ function AboutMain() {
 
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>협업활동 선정</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"bold", fontSize:"18px"}}>협업활동 선정</BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
               <Image src='/assets/images/process-logo3.png' width={48} height={60} />
               <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>각자 팀별로 한 주제를 책임지고 한 학기 동안 이끌어나가게 되며, 방학 중에 최종 결과물 발표회를 가지며 한 기수를 마무리 짓게 됩니다.</ChallengeCircleContent></BalloonDetailContent>
@@ -175,7 +174,7 @@ function AboutMain() {
 
           <BalloonBox>
             <BalloonCircle/>
-            <Balloon><BalloonContent><h3>결과물 공유</h3></BalloonContent><BalloonAfter/></Balloon>
+            <Balloon><BalloonContent style={{fontWeight:"bold", fontSize:"18px"}}>결과물 공유</BalloonContent><BalloonAfter/></Balloon>
             <BalloonDetailBox>
               <Image src='/assets/images/process-logo4.png' width={48} height={60} />
               <BalloonDetailContent><ChallengeCircleContent style={{color:"#000", paddingTop:"15px"}}>결과물은 홈페이지 내 아카이빙 공간에 참여한 기수별로 아카이빙 예정입니다.</ChallengeCircleContent></BalloonDetailContent>
