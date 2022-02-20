@@ -31,10 +31,18 @@ import {
   BalloonBox,
   BalloonDetailBox, BalloonDetailContent, BalloonCircle, FoundRowLine, Found, FoundBox, FoundContent, FoundColumnLine
 } from "./styles";
+import useIsMobile from "../../hooks/useIsMobile";
+import { useEffect } from "react";
 
 
 function AboutMain() {
+
+
+
   return (
+
+
+
     <Wrapper>
 
       <MainTop>

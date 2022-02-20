@@ -5,6 +5,7 @@ import Logo from '../Logo';
 import { Wrapper } from './styles';
 import useIsMobile from "../../hooks/useIsMobile";
 import { useEffect } from "react";
+import Ham from "../../api/ham";
 
 
 const routes = [
@@ -25,6 +26,13 @@ function NavigationBar() {
   const router = useRouter();
 
   return (
+    mob ?
+      <Wrapper>
+        <Ham></Ham>
+      </Wrapper>
+    :
+
+
     <Wrapper>
       <Logo />
       {routes.map(({ path, name }) => (
@@ -34,6 +42,17 @@ function NavigationBar() {
       ))}
     </Wrapper>
   );
+
+  // return(
+  //     <Wrapper>
+  //       <Logo />
+  //       {routes.map(({ path, name }) => (
+  //         <NavigationBarButton selected={router.pathname === path} href={path} key={path}>
+  //           {name}
+  //         </NavigationBarButton>
+  //       ))}
+  //     </Wrapper>
+  // );
 }
 
 export default NavigationBar;
