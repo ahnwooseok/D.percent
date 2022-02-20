@@ -1,0 +1,120 @@
+import styled from 'styled-components';
+
+export const Wrapper = styled.main`
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+`;
+export const Title = styled.h1`
+  color: #ffffff;
+  font-weight: 900;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 48px;
+  line-height: 110%;
+
+  padding-bottom: 48px;
+`;
+
+export const TitleBox = styled.h1`
+  display: flex;
+  flex-direction: column;
+  //align-items: center;   //이걸로 배치
+  justify-content: center;
+  width:100%;
+  
+  
+  
+`;
+
+export const SubTitle = styled.h2`
+  color: #DBDBDB;
+  font-weight: normal;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  
+`;
+
+export const MarginBox = styled.div`
+  height:200px;
+`;
+
+
+
+export const Contact = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  
+`;
+
+
+export const FlexBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+`;
+
+export const MimoBox = styled.div`
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 160px;
+  height: 160px;
+  
+  margin:30px;
+  
+  background: #ffffff;
+  border-radius: 12px;
+`;
+
+
+
+
+export const Contents1 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  padding-top:2px;
+  padding-bottom:2px;
+  
+`;
+export const Contents2 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 11px;
+  line-height: 150%;
+  /* or 16px */
+
+  padding-bottom:5px;
+  text-align: center;
+`;
+export const Contents3 = styled.h1`
+  color: #111111;
+  font-family: Noto Sans KR, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  text-align: center;
+`;
+
