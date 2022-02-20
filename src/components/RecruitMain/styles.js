@@ -129,7 +129,7 @@ export const BalloonAfter = styled.div`
   margin-top: -8px;
 `;
 export const BalloonContent = styled.div`
-  padding: 25px 10px;
+  padding: 20px 10px;
   text-align: center;
   align-items: center;
   font-family: Noto Sans KR, sans-serif;

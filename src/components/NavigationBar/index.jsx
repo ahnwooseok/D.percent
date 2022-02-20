@@ -3,6 +3,9 @@ import NavigationBarButton from '../NavigationBarButton';
 import Logo from '../Logo';
 
 import { Wrapper } from './styles';
+import useIsMobile from "../../hooks/useIsMobile";
+import { useEffect } from "react";
+
 
 const routes = [
   { path: '/about', name: 'About' },
@@ -12,6 +15,13 @@ const routes = [
 ];
 
 function NavigationBar() {
+
+  let mob = useIsMobile();
+  useEffect(()=>{
+    console.log(mob);
+  },[mob]);
+
+
   const router = useRouter();
 
   return (
