@@ -23,7 +23,7 @@ import {
 } from "../RecruitMain/styles";
 import { Background } from "./styles";
 
-function HomeMain() {
+function RecruitMain() {
   return (
     <Wrapper>
 
@@ -122,4 +122,4 @@ function HomeMain() {
   );
 }
 
-export default HomeMain;
+export default RecruitMain;
