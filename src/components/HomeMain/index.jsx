@@ -8,6 +8,8 @@ import { useEffect } from "react";
 function HomeMain() {
 
 
+
+
   return (
     <Wrapper>
       <Left>
